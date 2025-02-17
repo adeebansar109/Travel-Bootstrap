@@ -1,0 +1,264 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+  /* header */
+nav{
+    width: 100%;
+}
+.container-fluid{
+        max-width: 80%;
+}
+.navbar li{
+    margin: 0px 50px;
+}
+.text-center{
+    margin-top: 30px;
+}
+ .heading{
+    font-size: 80px;
+ }
+ .d-flex1{
+    margin-top: 20px;
+    width: 60%;
+    margin: 0 auto;
+  }
+   /* slide Bar */
+.carousel-inner{
+    margin-top: 20px;
+    height: 800px;
+} 
+ .d-block{
+     height: 800px;
+}
+   /* Hero Content */
+.hero-div{
+     width: 100%;
+}
+.hero-content{
+    max-width: 90%;
+    margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+}
+.hero-text-set{
+    margin-top: 130px;
+}
+.content-h1{
+    font-size: 70px;
+}
+.content-btn{
+    border-radius: 50px;
+    padding: 10px 50px;
+    background-color: rgb(4, 63, 4);
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.content-btn a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.hero-img{
+    width: 800px;
+    height: 450px;
+    margin-top: 50px;
+    border-radius: 20px;
+} 
+   /* card */
+  .card{
+    margin-top: 50px;
+  }
+ .card-img-top{
+    height: 300px;
+ }
+  .main-card{
+    width: 100%;
+  }
+  .card-flex{
+    display: flex;
+    justify-content: space-around; 
+  }
+   /* Main Text */
+    .main-text{
+       width: 100%;
+       margin-top: 100px;
+    }
+    .text-column{
+       max-width: 60%;
+       margin: 0px 50px;
+    }
+    .h3{
+      line-height: 10px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .text-fixed{
+      margin-left: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+ /* Footer */
+  .footer-head{
+    width: 100%;
+    margin-top: 50px;
+}
+  .head-flex{
+max-width: 90%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+}
+ .head-logo{
+font-size: 50px;
+font-family:'Times New Roman', Times, serif;
+} 
+.head-logo a{
+    text-decoration: none;
+    color: black;
+}
+.head-list li{
+display: inline-block;
+list-style-type: none;
+padding: 15px 20px;
+}
+.head-list a{
+text-decoration: none;
+color: black;
+font-size: 22px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head-link-list li{
+display: inline-block;
+list-style-type: none;
+padding: 15px 20px;
+}
+.head-link-list a{
+text-decoration: none;
+color: black;
+font-size: 25px;
+}
+.head-flex1{
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  }
+.footer-fixed{
+  display: flex;
+}
+.list-footer li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 0px 10px;
+  font-size: 20px;
+}
+.list-footer a{
+   text-decoration: none;
+}
+.footer-list1 li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 0px 10px;
+  font-size: 20px;
+}
+.footer-list1 a{
+  text-decoration: none;
+}
+   /* Media Queries */
+   @media only screen and (max-width: 1450px) {
+      .card-flex{
+        flex-wrap: wrap;
+      }
+ }
+ @media only screen and (max-width: 1090px) {
+     .hero-content{
+       flex-direction: column-reverse;
+     }
+     .text-column{
+      max-width: 100%;
+     }
+     .head-flex{
+        max-width: 100%;
+     }
+     .head-flex1{
+      max-width: 100%;
+     }
+}
+@media only screen and (max-width: 840px) {
+    .hero-img{
+      width: 600px;
+    }
+    .head-flex{
+      max-width: 90%;
+   }
+   .head-flex1{
+    max-width: 90%;
+   }
+}
+@media only screen and (max-width: 700px) {
+    .d-flex{
+      flex-direction: column;
+    }
+    .text-img{
+      width: 400px;
+    }
+    .text-fixed{
+      margin-top: 20px;
+    }
+  }
+@media only screen and (max-width: 630px) {
+     .hero-img{
+        width: 400px;
+     }
+     .footer-head{
+       background-color: rgb(170, 233, 233);
+     }
+     .head-flex{
+       flex-direction: column;
+       text-align: center;
+     }
+     .head-flex1{
+       flex-direction: column-reverse;
+       text-align: center;
+     }
+     .footer-fixed{
+      flex-direction: column-reverse;
+     }
+     .head-logo{
+       font-size: 80px;
+       font-family: fantasy;
+     }
+     .head-list li{
+       display: grid;
+     }
+    .head-list a{
+       font-size: 24px;
+    }
+     .list-footer li{
+      display: grid;
+      padding: 15px 0px;
+     }
+     .list-footer a{
+      font-size: 24px;
+     }
+     .footer-list1 li{
+      display: grid;
+      padding: 15px 0px;
+     }
+     .footer-list1 a{
+      font-size: 24px;
+     }
+}
+@media only screen and (max-width: 450px) {
+    .text-img{
+      width: 250px;
+    }
+    .hero-img{
+      width: 300px;
+      height: 300px;
+   }
+}
+
+
+  
